@@ -1,0 +1,142 @@
+.listlastitem a     {height:17px; display:block; text-decoration:none; background: url(../images/list_adminbottom.gif) no-repeat; color:#000; padding-top:3px; padding-left:20px;}
+.listlastitem a:hover {background:#A0A0A0; color:#fff; }
+.menuitem a     {height:17px; display:block; text-decoration:none; background: url(../images/list_bg.gif) no-repeat; color:#000; padding-top:3px; padding-left:20px;}
+.menuitem a:hover {background:#A0A0A0; color:#fff; }
+.navmain      {height:17px; font-weight: bold; padding-top:3px; background: url(../images/list_bg_head.gif);  color:#FFF}
+.navmaintop     {height:17px; font-weight: bold; padding-top:3px; background: url(../images/tab_admintop.gif);  color:#FFF}
+
+.specialoffer   {background:url(../images/specialoffer.gif) no-repeat; width:135px; height:70px; padding:0px; text-align:center;}
+.specialoffer h1  {font-size: 11px; text-transform:uppercase; font-weight:bold; color:#F36420; margin:4px; padding-top:4px; padding-bottom:0px;}
+.specialoffer p   {margin:0px; padding-left:5px; padding-right:5px;}
+.specialoffer a   {text-decoration:none; color:#3599CA; line-height:1.1em;}
+.specialoffer a:hover   {color:#F36621; }
+
+a.tab { display: block; width: 108px; height: 22px; background:url(../images/tab_blue.gif); padding-top:4px; text-align:center; text-decoration: none; font-size:10pt; color:#fff; font-style:bold; }
+a.tab:hover { color: #00275E; }
+
+#content_outer    {top:96px; width:600px; left:160px; padding-left:0px; padding-top:10px; text-align:left;background:url(../images/bgt_content.gif) no-repeat; }
+#content_inner    {width:576px; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; text-align:left; padding:10px; }
+
+.smallbox     {border:1px solid #D3D6DD; padding:3px; width:170px; float:left; margin-left:8px;}
+.smallbox1      {background:#EFEEF3; padding:5px; width:160px;height:82px;}
+.smallbox1 h3   {padding-bottom:5px;}
+.smallbox1 p    {padding:0px; float:left;}
+.smallbox1 img    {border:0px; float:left; padding-top:5px; padding-right:5px;}
+.smallbox1 img.gomap  {position:relative; top:0px; left:135px;}
+.smallbox1 img.goupgrade{position:relative; top:0px; left:50px;}
+.smallbox1 img.gorenew{position:relative; top:0px; left:45px;}
+.smallbox1 img.gocustom {position:relative; top:0px; left:135px;}
+
+
+.MyNaviBox {
+  background-color:#EEEEEE;
+  font-family: Verdana, "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: normal;
+  color: #666666;
+  border: 1px solid #999999;
+}
+
+.customiseH1 {
+  color: #F36420;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 8px; 
+  padding-bottom: 6px;       
+}
+
+.formstyle
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+table.admintitle
+{
+  border: 1px solid #D3D6DD;
+  background-color: #FFF;
+  padding: 3px;
+  width: 100%;
+}
+
+table.admin
+{
+  border: 1px solid #EFEEF3;
+  background-color: #FFF;
+  padding: 3px;
+  width: 100%;
+}     
+
+#photo img   {border:1px solid #87C2EE; padding:3px; background-color:#FFFFFF;}
+#photo input   {border:1px solid #87C2EE; padding:3px; background-color:#FFFFFF;}
+
+input.adminsubmit 
+{ 
+  position: relative;
+  height: 32px;
+  width: 129px;
+  overflow: hidden;
+  border: 0;
+  background: url("../images/empty-button.jpg") no-repeat top left;
+  cursor: hand;
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto;
+  padding-bottom: 4px; 
+  font-weight: bold;
+  font-size: 13pt;
+  color: #FFF;
+}
+
+
+#admin {border:1px solid #D3D6DD; padding:3px; background-color:#FFFFFF;}
+
+#error
+{
+  color: red;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#message
+{
+  display: block;
+  padding-bottom: 15px;
+}
+
+td.admindescription
+{
+  width: 100px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+}
+
+td.upgradedescription
+{
+  width: 150px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+}
+
+input.admindescription
+{
+  font-size: 8px;
+}
+
+#dhtmltooltip{
+  position: absolute;
+  width: 90px;
+  border: 1px solid black;
+  horizontal-alignment: center;
+  padding: 2px;
+  background-color: lightyellow;
+  visibility: hidden;
+  z-index: 100;
+  /*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/
+}
+
+
+

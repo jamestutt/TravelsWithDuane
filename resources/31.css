@@ -1,0 +1,28 @@
+#container    {width:750px; margin-bottom:10px; margin-left:auto; margin-right:auto; padding:10px; background-color:#fff; position:relative;}
+#banner       {background-color:#fff; text-align:left; padding:0px; margin:0px;}
+#banner img   {padding:0px 0px;} 
+
+#login        {width:330px; height:40px; background:url(../images/bg_login.gif) no-repeat 10px 0; padding-top:7px; padding-right:10px; font-weight:bold; font-size:12px;}
+#login input    {font-size:11px; padding-right:0px}
+
+#maincontentinternal {padding:10px;}
+
+div#content     {min-height:600px; height:expression(this.scrollHeight > 600 ? "auto":"600px");}
+
+#dhtmltooltip{
+  position: absolute;
+  width: 90px;
+  border: 1px solid gray;
+  horizontal-alignment: center;
+  padding: 2px;
+  background-color: lightyellow;
+  visibility: hidden;
+  z-index: 100;
+  /*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+  /*filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/
+} 
+
+a           {color:#0000CC; text-decoration: underline; line-height:1.4em;}
+a:hover     {color:red;}
+a:visted    {color:#0000CC;}
+
